@@ -8,7 +8,6 @@ def second_challenge
   }
 
   items = groceries.values
-  binding.pry
-  items.flatten
+  items.flatten!
   items
 end
